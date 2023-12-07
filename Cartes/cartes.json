@@ -382,3 +382,23 @@
     },
   ]
 }
+{
+  "theme":"Economie",
+  "recto": {
+    "images": ["NULL", "NULL"],
+    "description": "过度捕捞影响了三分之一的鱼类种群，三分之一的鲨鱼和鳐鱼受到威胁。在欧洲，大型鱼类数量惊人地下降了 90%，这警告人们形势的紧迫性",
+    "question": "过度捕捞影响了三分之一的鱼类种群，三分之一的鲨鱼和鳐鱼受到威胁。在欧洲，大型鱼类数量惊人地下降了 90%，这警告人们形势的紧迫性",
+    "interlocuteur": "Quelqu'un"
+  },
+  "verso": {
+    "source": "https://librairie.ademe.fr/cadic/7736/guide-adopter-solaire-thermique.pdf",
+    "texte": "l y a suffisamment de soleil en France (même au nord) pour envisager l'installation d'un chauffe-eau solaire. En période estivale, la totalité de la demande en eau chauffée pourrait même être couverte, ce qui permettrait d’éteindre complètement la chaudière.",
+    "images": ["NULL", "NULL"]
+  },
+  "consequences": {
+    "consequence1": 0,
+    "consequence2": 0,
+    "consequence3": 0,
+    "consequence4": 0,
+  }
+},
