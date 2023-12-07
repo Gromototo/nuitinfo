@@ -6,7 +6,7 @@
         "images": ["NULL", "NULL"],
         "description": "Nous voulons étendre notre domaine de pêche.",
         "question": "Accorder une dérogation pour la pêche industrielle dans les aires marines protégées?",
-        "interlocuteur": "Un lobbyiste de la pêche industrielle",
+        "interlocuteur": "Un lobbyiste de la pêche industrielle"
       },
       "verso": {
         "source": "UNKNOWN",
@@ -17,7 +17,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -26,7 +26,7 @@
         "images": ["NULL", "NULL"],
         "description": "Une chaîne de télévision répand l'information que les ouragans ne sont pas liés au changement climatique.",
         "question": "Poursuivre la chaîne de télévision en justice pour fausse information?",
-        "interlocuteur": "Directeur de l'Arcom",
+        "interlocuteur": "Directeur de l'Arcom"
       },
       "verso": {
         "source": "UNKNOWN",
@@ -37,7 +37,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -46,7 +46,7 @@
         "images": ["NULL", "NULL"],
         "description": "Le président d'un pays allié affirme sur ses réseaux sociaux que le niveau des mers n'augmente pas.",
         "question": "Réagir en menaçant de mettre fin aux partenariats?",
-        "interlocuteur": "Conseiller du Pôle Diplomatique",
+        "interlocuteur": "Conseiller du Pôle Diplomatique"
       },
       "verso": {
         "source": "UNKNOWN",
@@ -57,7 +57,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -66,7 +66,7 @@
         "images": ["NULL", "NULL"],
         "description": "Lancer une innitiative pour planter des milliers d'arbres pour la journée internationale des forêts ?",
         "question": "Financer et communiquer sur l'initiative ?",
-        "interlocuteur": "Conseillere Écologique",
+        "interlocuteur": "Conseillere Écologique"
       },
       "verso": {
         "source": "UNKNOWN",
@@ -77,7 +77,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -86,7 +86,7 @@
         "images": ["NULL", "NULL"],
         "description": "L'industrie automobile propose de nombreux nouveaux véhicules électriques.",
         "question": "Proposer des financements aux particuliers pour l'achat de voitures électriques?",
-        "interlocuteur": "Lobbyiste de l'Industrie Automobile",
+        "interlocuteur": "Lobbyiste de l'Industrie Automobile"
       },
       "verso": {
         "source": "UNKNOWN",
@@ -97,7 +97,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -117,7 +117,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -137,7 +137,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -157,7 +157,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -177,7 +177,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -197,7 +197,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -217,7 +217,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -237,7 +237,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -257,7 +257,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -277,7 +277,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -297,7 +297,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -317,7 +317,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -337,7 +337,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -357,7 +357,7 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
     },
     {
@@ -377,8 +377,8 @@
         "consequence1": 0,
         "consequence2": 0,
         "consequence3": 0,
-        "consequence4": 0,
+        "consequence4": 0
       }
-    },
+    }
   ]
 }

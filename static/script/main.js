@@ -1,8 +1,9 @@
 import Card from './Card.js';
 function loadQuestionsAndCreateCards() {
-    fetch('../data/questions.json')
+    fetch('../static/data/cartes.json')
         .then(response => response.json())
         .then(data => {
+            console.log(data);
             const questions = data.questions;
             const cardStack = document.getElementById('card-stack');
 

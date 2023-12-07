@@ -6,6 +6,7 @@ export default class Card {
     }
 
     createCard() {
+        console.log(this.question)
         const card = document.createElement('div');
         card.className = 'card';
         card.style.zIndex = 1000 - this.index;
