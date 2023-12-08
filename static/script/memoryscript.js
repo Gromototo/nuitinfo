@@ -167,11 +167,60 @@ document.addEventListener('DOMContentLoaded', function() {
         cardsChosen = [];
         cardsChosenID = [];
         resultDisplay.textContent = cardsWon.length;
-        if (cardsWon.length === cardArray.length/2){
+        if (cardsWon.length === cardArray.length/2 && movesCount == 6){
             resultDisplay.textContent = 'Bravo!';
             clearInterval(interval);
             Swal.fire({
-                title: 'Congratulations you won !',
+                title: 'Congratulations you won ! AND YOU FOUND THE EASTER EGG !!',
+                html: '<p>Solving time: <span class="timewon"></span>s</p> <p>Total moves: <span class="moveswon"></span></p>',
+                didOpen: () => {
+                    const timewon = Swal.getHtmlContainer().querySelector('.timewon');
+                    timewon.textContent = seconds;
+                    const moveswon = Swal.getHtmlContainer().querySelector('.moveswon');
+                    moveswon.textContent = movesCount;
+                },
+                text: 'Do you want to restart the game?',
+                showCancelButton: true,
+                confirmButtonText: 'Restart',
+                imageUrl: "https://media.giphy.com/media/kwnRfbCKVf4VHfv3hm/giphy.gif",
+                imageWidth: 400,
+                imageAlt: "Custom image"
+            })
+            .then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (result.isConfirmed) {
+                    let timerInterval;
+                    Swal.fire({
+                        title: 'Restarting',
+                        html: 'The game will restart in <b></b> milliseconds.',
+                        timer: 2000,
+                        timerProgressBar: true,
+                        didOpen: () => {
+                            Swal.showLoading()
+                            const b = Swal.getHtmlContainer().querySelector('b')
+                            timerInterval = setInterval(() => {
+                                b.textContent = Swal.getTimerLeft()
+                            }, 100)
+                        },
+                        willClose: () => {
+                            clearInterval(timerInterval)
+                        }
+                    }).then((result) => {
+                        /* Read more about handling dismissals below */
+                        if (result.dismiss === Swal.DismissReason.timer) {
+                            console.log('I was closed by the timer')
+                        }
+                    });
+                    setTimeout(refreshPage, 2000);
+                }
+            })
+
+        }
+        else if (cardsWon.length === cardArray.length/2){
+            resultDisplay.textContent = 'Bravo!';
+            clearInterval(interval);
+            Swal.fire({
+                title: 'Congratulations you won ! Now you can try and find the Easter Egg!',
                 html: '<p>Solving time: <span class="timewon"></span>s</p> <p>Total moves: <span class="moveswon"></span></p>',
                 didOpen: () => {
                     const timewon = Swal.getHtmlContainer().querySelector('.timewon');
@@ -183,7 +232,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 icon: 'success',
                 showCancelButton: true,
                 confirmButtonText: 'Restart',
-            }).then((result) => {
+                backdrop: `
+                    rgba(0,0,123,0.4)
+                    url("../images/ok.gif")
+                    left top
+                    no-repeat
+                `
+            })
+            .then((result) => {
                 /* Read more about isConfirmed, isDenied below */
                 if (result.isConfirmed) {
                     let timerInterval;
