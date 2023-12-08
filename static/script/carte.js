@@ -8,7 +8,3 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-function flipCard() {
-  const card = document.querySelector('.card-design');
-  card.style.transform = 'rotateY(180deg)';
-}
