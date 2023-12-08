@@ -14,14 +14,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": -10,
+        "jauge2": 20,
+        "jauge3": -5
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": 10,
+        "jauge2": 0,
+        "jauge3": 0
       }
     },
     {
@@ -38,14 +38,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
+        "jauge1": -5,
         "jauge2": 10,
-        "jauge3": 10
+        "jauge3": -5
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": 0,
+        "jauge2": -5,
+        "jauge3": 0
       }
     },
     {
@@ -62,14 +62,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": 5,
+        "jauge2": 0,
+        "jauge3": -10
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": -5,
+        "jauge2": 0,
+        "jauge3": 0
       }
     },
     {
@@ -86,14 +86,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": 5,
+        "jauge2": -10,
+        "jauge3": 5
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": 0,
+        "jauge2": 0,
+        "jauge3": 0
       }
     },
     {
@@ -106,7 +106,7 @@
       },
       "verso": {
         "source": "UNKNOWN",
-        "texte": "NULL",
+        "texte": "Pour commencer, une voiture électrique n’est jamais « zéro carbone ». Sa production, et notamment celle de ses batteries, émet des gaz à effet de serre (à l’origine du réchauffement climatique). Avant même d’avoir roulé le moindre kilomètre, une voiture électrique a donc une « dette » carbone de 5 à 15 tonnes équivalent CO2, selon les modèles.",
         "images": []
       },
       "agree": {
@@ -134,14 +134,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": 15,
+        "jauge2": 0,
+        "jauge3": 0
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": -15,
+        "jauge2": 20,
+        "jauge3": 0
       }
     },
     {
@@ -158,14 +158,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": -5,
+        "jauge2": -10,
+        "jauge3": 0
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": 5,
+        "jauge2": 0,
+        "jauge3": 0
       }
     },
     {
@@ -177,19 +177,19 @@
         "interlocuteur": "Scientifique"
       },
       "verso": {
-        "source": "https://www.telecom-paris-alumni.fr/fr/revue/article/pourquoi-la-technologie-ne-nous-sauvera-pas-du-desastre-ecologique/3260",
+        "source": "UNKNOWN",
         "texte": "L’idée que nous pourrions éviter les effets catastrophiques du dérèglement grâce à des découvertes technologiques bute sur un simple problème de calendrier : à supposer que de telles découvertes soient faites (postulat déjà optimiste), les phases de planification, construction, tests, mises en place aux échelles suffisantes prendrait des décennies. Nous ne disposons pas de ce temps. Croire l’inverse revient à nier l’ampleur du problème.",
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
-      },
-      "disagree": {
         "jauge1": -10,
         "jauge2": -10,
-        "jauge3": -10
+        "jauge3": 0
+      },
+      "disagree": {
+        "jauge1": 10,
+        "jauge2": 0,
+        "jauge3": 0
       }
     },
     {
@@ -207,13 +207,13 @@
       },
       "agree": {
         "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge2": -20,
+        "jauge3": 0
       },
       "disagree": {
         "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge2": 5,
+        "jauge3": 0
       }
     },
     {
@@ -225,26 +225,26 @@
         "interlocuteur": "Citoyen"
       },
       "verso": {
-        "source": "",
+        "source": "NULL",
         "texte": "L'énergie renouvelable sera bientôt moins chère que le gaz naturel. Il est économiquement sensé pour les gouvernements d'investir dans des solutions d'énergie propre",
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": -5,
+        "jauge2": 0,
+        "jauge3": 0
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 0
       }
     },
     {
       "theme":"Diplomatie",
       "recto": {
         "images": ["../static/pictures/ecolo-activist.png"],
-        "description": "Lors d'un débat, votre opposant affirme que La législation internationale ne protège pas l'environnement en temps de guerre !",
+        "description": "Lors d'un débat, votre opposant affirme que la législation internationale ne protège pas l'environnement en temps de guerre !",
         "question": "Lui répondre que c'est tout à fait vrai et que vous souhaitez remédier à cela ?",
         "interlocuteur": "Opposant Politique"
       },
@@ -254,14 +254,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": -5,
+        "jauge2": 0,
+        "jauge3": -5
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": 5,
+        "jauge2": 0,
+        "jauge3": 5
       }
     },
     {
@@ -279,13 +279,13 @@
       },
       "agree": {
         "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge2": -5,
+        "jauge3": -5
       },
       "disagree": {
         "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge2": 10,
+        "jauge3": 0
       }
     },
     {
@@ -297,7 +297,7 @@
         "interlocuteur": "Agriculteur"
       },
       "verso": {
-        "source": "",
+        "source": "slate.fr",
         "texte": "l'importance du manger local est parfois surestimée, car le transport ne représente en réalité qu'une petite partie de l'énergie consommée dans la production des aliments en effet : le transport de nourriture représente en général moins de 10% de l'empreinte carbone de la nourriture",
         "images": []
       },
@@ -326,14 +326,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": 5,
+        "jauge2": 4,
+        "jauge3": 2
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": -5,
+        "jauge2": 4,
+        "jauge3": 2
       }
     },
     {
@@ -350,14 +350,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": -2,
+        "jauge2": -2,
+        "jauge3": 0
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": 2,
+        "jauge2": 2,
+        "jauge3": 0
       }
     },
     {
@@ -376,12 +376,12 @@
       "agree": {
         "jauge1": 10,
         "jauge2": 10,
-        "jauge3": 10
+        "jauge3": 0
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": -5,
+        "jauge2": -5,
+        "jauge3": 0
       }
     },
     {
@@ -398,22 +398,22 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": -2,
+        "jauge2": 5,
+        "jauge3": 0
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": 2,
+        "jauge2": 0,
+        "jauge3": 0
       }
     },
     {
       "theme":"Economie",
       "recto": {
         "images": ["../static/pictures/ceo.png"],
-        "description": "Investir dans le bio carburant comme l'huile de palme ou les graisses animales qui vont permettre de péréniser l'aviation civile et de transport.",
-        "question": "Le bio carburant n'est pas la solution, Refuser.",
+        "description": "Investir dans le biocarburant comme l'huile de palme ou les graisses animales qui vont permettre de péréniser l'aviation civile et de transport.",
+        "question": "Le biocarburant n'est pas la solution, Refuser.",
         "interlocuteur": "Lobbyiste secteur de l'aviation"
       },
       "verso": {
@@ -422,14 +422,14 @@
         "images": []
       },
       "agree": {
-        "jauge1": 10,
-        "jauge2": 10,
-        "jauge3": 10
+        "jauge1": 5,
+        "jauge2": 2,
+        "jauge3": 0
       },
       "disagree": {
-        "jauge1": -10,
+        "jauge1": 2,
         "jauge2": -10,
-        "jauge3": -10
+        "jauge3": 0
       }
     },
     {
@@ -437,23 +437,23 @@
       "recto": {
         "images": ["../static/pictures/person.png"],
         "description": "N'investissez pas dans les chauffe eau solaires, ça ne fonctionne pas dans le nord ni en hiver.",
-        "question": "Le bio carburant n'est pas la solution, Refuser.",
+        "question": "Voulez-vous en achetez un ?",
         "interlocuteur": "Quelqu'un"
       },
       "verso": {
         "source": "https://librairie.ademe.fr/cadic/7736/guide-adopter-solaire-thermique.pdf",
-        "texte": "l y a suffisamment de soleil en France (même au nord) pour envisager l'installation d'un chauffe-eau solaire. En période estivale, la totalité de la demande en eau chauffée pourrait même être couverte, ce qui permettrait d’éteindre complètement la chaudière.",
+        "texte": "Il y a suffisamment de soleil en France (même au nord) pour envisager l'installation d'un chauffe-eau solaire. En période estivale, la totalité de la demande en eau chauffée pourrait même être couverte, ce qui permettrait d’éteindre complètement la chaudière.",
         "images": []
       },
       "agree": {
         "jauge1": 10,
         "jauge2": 10,
-        "jauge3": 10
+        "jauge3": 0
       },
       "disagree": {
-        "jauge1": -10,
-        "jauge2": -10,
-        "jauge3": -10
+        "jauge1": -2,
+        "jauge2": 0,
+        "jauge3": 0
       }
     }
   ]
