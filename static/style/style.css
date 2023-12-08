@@ -95,5 +95,32 @@ main section{
     border-radius: 4px;
 }
 
+#interlocuteur {
+    font-weight: bold;
+    text-align: center;
+}
+
+#interlocuteurimage{
+    border-radius: 10px;
+}
+
+.card-data-interlocutor-description {
+    display: flex;
+    flex-direction: column; /* Pour aligner verticalement le texte dans la colonne */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.card-data-interlocutor-description p {
+    margin: 0; /* Pour supprimer la marge par défaut du paragraphe */
+}
 
 
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%; /* Utiliser toute la largeur disponible */
+    margin-top: 10px;
+}
