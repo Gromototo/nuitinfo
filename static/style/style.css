@@ -97,6 +97,7 @@ main section{
 
 #interlocuteur {
     font-weight: bold;
+    font-size:1.3em;
     text-align: center;
 }
 
@@ -123,4 +124,24 @@ main section{
     justify-content: space-between;
     width: 60%; /* Utiliser toute la largeur disponible */
     margin-top: 10px;
+}
+
+.side.back {
+    text-align: center; /* Pour centrer le texte horizontalement dans le conteneur */
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.centered-text {
+    margin: 0; /* Pour supprimer la marge par défaut du paragraphe */
+}
+
+#linkjeu{
+
+    text-decoration: none; /* Supprimer la soulignement par défaut */
+    color: inherit; /* Utiliser la couleur du texte par défaut */
+    cursor: pointer; /* Ajouter un curseur pointer pour indiquer que le lien est cliquable */
+    /* Ajoutez d'autres styles spécifiques au besoin */
 }

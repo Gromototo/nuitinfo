@@ -46,7 +46,14 @@ export default class Card {
             const verso1 =  card.querySelector('.back');
             verso1.insertAdjacentHTML(
                 "beforeend",
-                `<button class="btn"><a href="${this.question.verso.jeu}" target="new">Un super mini jeu</a></button>`,
+                `<button class="btn"><a id ="linkjeu" href="${this.question.verso.jeu}" target="new">Un super mini jeu</a></button>`,
+            );
+        }
+        if(this.question.verso.fin){
+            const verso1 =  card.querySelector('.back');
+            verso1.insertAdjacentHTML(
+                "beforeend",
+                `<button class="btn"><a id ="linkjeu" href="${this.question.verso.fin}" target="new">Voulez vous rejouer ?</a></button>`,
             );
         }
 
