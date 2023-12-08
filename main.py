@@ -10,6 +10,11 @@ app = Flask(__name__)
 def pacman():
     return render_template("pacman.html")
 
+@app.route("/memory")
+def memory():
+    return render_template("memory.html")
+
+
 @app.route("/")
 def homepage():
     return render_template("index.html")

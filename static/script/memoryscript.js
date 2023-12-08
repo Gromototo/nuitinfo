@@ -3,51 +3,51 @@ document.addEventListener('DOMContentLoaded', function() {
     const cardArray = [
         {
             id:1,
-            img:'images/glacier.png'
+            img:'../static/images/glacier.png'
         },
         {
             id:1,
-            img:'images/montée_des_eaux.png'
+            img:'../static/images/montée_des_eaux.png'
         },
         {
             id:2,
-            img:'images/industrie.png'
+            img:'../static/images/industrie.png'
         },
         {
             id:2,
-            img:'images/pollution.png'
+            img:'../static/images/pollution.png'
         },
         {
             id:3,
-            img:'images/Effet_de_serre.png'
+            img:'../static/images/Effet_de_serre.png'
         },
         {
             id:3,
-            img:'images/rechauffement.png'
+            img:'../static/images/rechauffement.png'
         },
         {
             id:4,
-            img:'images/agriculture.png'
+            img:'../static/images/agriculture.png'
         },
         {
             id:4,
-            img:'images/deforestation.png'
+            img:'../static/images/deforestation.png'
         },
         {
             id:5,
-            img:'images/minage.png'
+            img:'../static/images/minage.png'
         },
         {
             id:5,
-            img:'images/secheresse.png'
+            img:'../static/images/secheresse.png'
         },
         {
             id:6,
-            img:'images/permafrost.png'
+            img:'../static/images/permafrost.png'
         },
         {
             id:6,
-            img:'images/dinosaure.png'
+            img:'../static/images/dinosaure.png'
         }
     ];
 
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function createBoard(){
         for (let pas=0; pas< cardArray.length; pas++) {
             let card = document.createElement('img');
-            card.setAttribute('src', 'images/rien.png');
+            card.setAttribute('src', '../static/images/rien.png');
             card.setAttribute('data-id', pas);
             console.log(card);
             card.addEventListener("click", flipCard);
@@ -129,8 +129,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 cardsWon.push(cardsChosen);
             }
             else{
-                cards[optionOneId].setAttribute('src', 'images/rien.png');
-                cards[optionTwoId].setAttribute('src', 'images/rien.png');
+                cards[optionOneId].setAttribute('src', '../static/images/rien.png');
+                cards[optionTwoId].setAttribute('src', '../static/images/rien.png');
             }
         }
         cardsChosen = [];
