@@ -106,7 +106,7 @@
         "interlocuteur": "Lobbyiste de l'Industrie Automobile"
       },
       "verso": {
-        "jeu":"inProgress",
+        "jeu":"InProgress",
         "source": "quechoisir.org",
         "texte": "Pour commencer, une voiture électrique n’est jamais « zéro carbone ». Sa production, et notamment celle de ses batteries, émet des gaz à effet de serre (à l’origine du réchauffement climatique). Avant même d’avoir roulé le moindre kilomètre, une voiture électrique a donc une « dette » carbone de 5 à 15 tonnes équivalent CO2, selon les modèles.",
         "images": []
