@@ -1,3 +1,4 @@
+import {score} from "./game";
 document.addEventListener("DOMContentLoaded", function() {
   const progressBar = document.querySelector('.progress-fill');
   const progressText = document.querySelector('.progress-text');
@@ -7,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
   let playerProgress = 0;
 
   function updateProgressBar() {
-    progressBar.setAttribute('height', `${playerProgress}%`);
-    progressBar.setAttribute('y', `${100 - playerProgress}%`);
-    progressText.textContent = `${playerProgress}%`;
+    progressBar.setAttribute('height', `${score.jauge1}%`);
+    progressBar.setAttribute('y', `${100 - score.jauge1}%`);
+    progressText.textContent = `${score.jauge1}%`;
   }
 
   // Function to increase player progress
