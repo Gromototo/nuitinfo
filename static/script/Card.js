@@ -22,17 +22,17 @@ export default class Card {
                     </div>
                     <div class="card-data-interlocutor">
                         <div class="card-data-interlocutor-profil">
-                            <img src="${this.question.recto.images[0]}"</img>
-                            <p>${this.question.recto.interlocuteur}</p>
+                            <img src="${this.question.recto.images[0]}" id="interlocuteurimage"</img>
+                            <p id="interlocuteur">${this.question.recto.interlocuteur}</p>
                         </div>
                         <div class="card-data-interlocutor-description">
-                            <p>${this.question.recto.description}</p>
+                            <p >${this.question.recto.description}</p>
                         </div>
                     </div>
-                        <div class="btn-container">
-                            <button class="btn flip-btn agree">D'accord</button>
-                            <button class="btn flip-btn disagree">Pas d'accord</button>
-                        </div> 
+                    <div class="btn-container">
+                        <button class="btn flip-btn agree">&nbsp&nbspD'accord&nbsp</button>
+                        <button class="btn flip-btn disagree">Pas d'accord</button>
+                    </div> 
                 </div>        
                 <div class="side back">
                     <p>${this.question.verso.texte}</p>
