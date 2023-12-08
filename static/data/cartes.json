@@ -13,11 +13,15 @@
         "texte": "La surpêche touche un tiers des populations de poissons, les requins et les raies sont menacés à hauteur d'un tiers. En Europe, une chute alarmante de 90% des populations de grands poissons alerte sur l'urgence de la situation.",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -33,11 +37,15 @@
         "texte": "Les experts s’accordent sur le fait que le réchauffement des eaux influe directement sur la violence de ces phénomènes météorologiques, qui puisent leur énergie des océans",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -53,11 +61,15 @@
         "texte": "Les experts s’accordent sur le fait que le réchauffement des eaux influe directement sur la violence de ces phénomènes météorologiques, qui puisent leur énergie des océans",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -73,11 +85,15 @@
         "texte": "Cette action n'aura aucun impact immédait. Un arbre peut absorber jusqu’à 150 kg de CO2 par an. D’autant qu’un arbre planté aujourd’hui ne pourra absorber efficacement du CO2 qu’après 23 ans",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -93,11 +109,15 @@
         "texte": "NULL",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -113,11 +133,15 @@
         "texte": "NULL",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -133,11 +157,15 @@
         "texte": "Leur installation dans des zones écologiquement sensibles peut perturber les habitats naturels.",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -153,11 +181,15 @@
         "texte": "NULL",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -173,11 +205,15 @@
         "texte": "Il faut juste reduire sa consommation en viande car il faut 7 à 10 kilos de céréales pour produire un kilo de viande rouge",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -193,11 +229,15 @@
         "texte": "L'énergie renouvelable sera bientôt moins chère que le gaz naturel. Il est économiquement sensé pour les gouvernements d'investir dans des solutions d'énergie propre",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -213,11 +253,15 @@
         "texte": "Le droit international humanitaire offre en réalité une protection à l'environnement contre les dommages à long terme et étendus causés par les conflits armés.",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -233,11 +277,15 @@
         "texte": "Le transport ne represente que ⅓ des émissions d'un citoyen français.",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -253,11 +301,15 @@
         "texte": "l'importance du manger local est parfois surestimée, car le transport ne représente en réalité qu'une petite partie de l'énergie consommée dans la production des aliments en effet : le transport de nourriture représente en général moins de 10% de l'empreinte carbone de la nourriture",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -273,11 +325,15 @@
         "texte": "Les voyages en avion présentent une empreinte carbone moyenne d'environ 80 grammes de CO2 par passager et par kilomètre sur des vols de 2 000 km, tandis que les trajets en bateau génèrent une émission estimée à 250 grammes de CO2 par passager et par kilomètre",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -293,11 +349,15 @@
         "texte": "Contre toute attente, le pourcentage de Calcin (verre recyclé) représente 10 à 90% d’un nouvel élément en verre en fonction de la qualité et le type de ce dernier. Un ajout plus ou moins importants de matière premières (la Silice, la Chaux, la Magnésie).",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -313,11 +373,15 @@
         "texte": "On sait qu’un français consomme en moyenne 6kg de PQ par an, ce qui représente 3 000 litres d’eau ! Un lavage à l’eau consomme 200L par an, l’impact est bien moindre",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -333,11 +397,15 @@
         "texte": "En Allemagne, au moment de régler vos achats, vous payez une consigne sur la majorité des bouteilles, grands pots en verre (yaourt par exemple), presque toutes les canettes en aluminium, briques et boissons en bouteille plastique. Mais celle-ci peut ensuite être récupérée au moment de rendre l’emballage !",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -353,11 +421,15 @@
         "texte": "Seuls 15 millions de litres fabriqués à partir d'huile de colza, d'huile de palme ou de graisses animales sortent des raffineries tous les ans, soit… moins de 0,1 % de la consommation de l'aviation mondiale",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     },
     {
@@ -373,11 +445,15 @@
         "texte": "l y a suffisamment de soleil en France (même au nord) pour envisager l'installation d'un chauffe-eau solaire. En période estivale, la totalité de la demande en eau chauffée pourrait même être couverte, ce qui permettrait d’éteindre complètement la chaudière.",
         "images": []
       },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
+      "agree": {
+        "jauge1": 10,
+        "jauge2": 10,
+        "jauge3": 10
+      },
+      "disagree": {
+        "jauge1": -10,
+        "jauge2": -10,
+        "jauge3": -10
       }
     }
   ]

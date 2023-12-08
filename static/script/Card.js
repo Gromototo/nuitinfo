@@ -1,3 +1,6 @@
+import {updateScore, score} from "./game.js";
+
+
 export default class Card {
     constructor(question, index, cardStack) {
         this.question = question;
@@ -38,19 +41,29 @@ export default class Card {
         </div>`;
 
         this.cardStack.appendChild(card);
-        const flipButtons = card.querySelectorAll('.flip-btn');
-        flipButtons.forEach(btn => btn.addEventListener('click', () => this.flipCard(card)));
+        const flipButtonsAgree = card.querySelectorAll('.agree');
+        flipButtonsAgree.forEach(btn => btn.addEventListener('click', () => this.flipCardAgree(card)));
+
+        const flipButtonsDisagree = card.querySelectorAll('.disagree');
+        flipButtonsDisagree.forEach(btn => btn.addEventListener('click', () => this.flipCardDisagree(card)));
 
         const Suprr = card.querySelectorAll('.suprr-card');
         Suprr.forEach(btn => btn.addEventListener('click', () => this.suprCard(card)));
     }
 
-    flipCard(cardElement) {
+    flipCardAgree(cardElement) {
         const card = cardElement.querySelector('.card-data-container');
+        updateScore(this.question.agree);
+        card.style.transform = 'rotateY(180deg)';
+    }
+    flipCardDisagree(cardElement) {
+        const card = cardElement.querySelector('.card-data-container');
+        updateScore(this.question.disagree);
         card.style.transform = 'rotateY(180deg)';
     }
 
     suprCard(cardElement) {
+        console.log(score)
         cardElement.remove()
     }
 }
