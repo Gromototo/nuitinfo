@@ -127,6 +127,37 @@ document.addEventListener('DOMContentLoaded', function() {
                 cards[optionTwoId].setAttribute('disabled', 'true');
                 cards[optionTwoId].classList.add('found');
                 cardsWon.push(cardsChosen);
+                console.log(cardsChosen[0]);
+                if(cardsChosen[0] == 1){
+                    Swal.fire({
+                        text: "Pour bien comprendre, il faut distinguer la banquise de la calotte glaciaire. La banquise, c’est de la glace formée par le gel de l’eau de mer en hiver, ce sont les icebergs qui flottent sur les océans et la banquise arctique au pôle nord. La banquise est déjà dans l’eau, quand elle fond cela ne change rien au niveau des mers. Mais les glaciers, sont composés d’eau qui s’est solidifiée en dehors des océans. Donc quand ils fondent, cela fait directement monter les eaux. ",
+                    });
+                }
+                if(cardsChosen[0] == 2){
+                    Swal.fire({
+                        text: "Le secteur de l’industrie manufacturière (hors activité liée au traitement des déchets et y compris activités de construction) est à l’origine de 78 Mt CO2 eq. émis en 2019. Ce secteur est le quatrième contributeur d’émissions de gaz à effet de serre (GES) sur le territoire national français.",
+                    });
+                }
+                if(cardsChosen[0] == 3){
+                    Swal.fire({
+                        text: "Depuis la révolution industrielle, l’humanité ajoute ses propres émissions de gaz à effet de serre à celles de la nature. Ce « bonus » a tout changé. Dans son rapport publié en août 2021, le Giec n’a jamais été aussi catégorique : « Sans équivoque, l’influence humaine a réchauffé l’atmosphère, les océans et les terres. » Cet effet de serre additionnel est la seule cause du réchauffement climatique. ",
+                    });
+                }
+                if(cardsChosen[0] == 4){
+                    Swal.fire({
+                        text: "La forêt a principalement reculé dans les tropiques, particulièrement en Amérique du Sud et en Afrique. Abritant près des deux tiers de la forêt amazonienne, le Brésil est le pays au monde qui a perdu le plus d’hectares de forêts (984 000), devant l’Indonésie, la Birmanie, le Nigeria et la Tanzanie. 80 % de la déforestation est due à l’agriculture.",
+                    });
+                }
+                if(cardsChosen[0] == 5){
+                    Swal.fire({
+                        text: "L'extraction de lithium n'est pas sans conséquences pour l'environnement. Au Chili, l'entreprise SQM, une des deux entreprises autorisées à exploiter le désert d'Atacama, dit ainsi puiser en 2022 près de 400.000 litres d'eau par heure pour les besoins de son usine.",
+                    });
+                }
+                if(cardsChosen[0] == 6){
+                    Swal.fire({
+                        text: "Surprise ! La fonte du Permafrost (sol perpétuellement gelé des régions arctiques), engendre la découverte d'espèces éteintes depuis des années. Des dinosaures commencent à etre libérés dans le cercle arctique. Esperons qu'ils ne savent pas nager !",
+                    });
+                }
             }
             else{
                 cards[optionOneId].setAttribute('src', '../static/images/rien.png');
