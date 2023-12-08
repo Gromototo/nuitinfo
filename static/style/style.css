@@ -55,11 +55,11 @@ main section{
 }
 #section-gauge {
     flex: 35%;
-    background-color: blue;
 }
 
 .progress-container {
     text-align: center;
+    height: calc((100vh - 7vh) - 30vh);
 }
 
 .progress-bar {
