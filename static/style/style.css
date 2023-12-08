@@ -56,6 +56,11 @@ main section{
 #section-gauge {
     flex: 35%;
 }
+#faut-que-ca-marche{
+    display: flex;
+    justify-content: space-around;
+    height: calc(100vh - 30vh);
+}
 
 .progress-container {
     text-align: center;
@@ -71,7 +76,7 @@ main section{
 }
 
 .progress-fill {
-    fill: #4caf50;
+    fill: grey;
     transition: height 0.3s ease, y 0.3s ease;
 }
 
