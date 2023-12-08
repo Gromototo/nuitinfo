@@ -9,7 +9,7 @@
         "interlocuteur": "Un lobbyiste de la pêche industrielle"
       },
       "verso": {
-        "source": "UNKNOWN",
+        "source": "lesechos.fr",
         "texte": "La surpêche touche un tiers des populations de poissons, les requins et les raies sont menacés à hauteur d'un tiers. En Europe, une chute alarmante de 90% des populations de grands poissons alerte sur l'urgence de la situation.",
         "images": []
       },
@@ -33,8 +33,7 @@
         "interlocuteur": "Directeur de l'Arcom"
       },
       "verso": {
-        "jeu": "memory",
-        "source": "UNKNOWN",
+        "source": "bonpote.com",
         "texte": "Les experts s’accordent sur le fait que le réchauffement des eaux influe directement sur la violence de ces phénomènes météorologiques, qui puisent leur énergie des océans",
         "images": []
       },
@@ -58,7 +57,7 @@
         "interlocuteur": "Conseiller du Pôle Diplomatique"
       },
       "verso": {
-        "source": "UNKNOWN",
+        "source": "lemonde.fr",
         "texte": "Les experts s’accordent sur le fait que le réchauffement des eaux influe directement sur la violence de ces phénomènes météorologiques, qui puisent leur énergie des océans",
         "images": []
       },
@@ -82,8 +81,8 @@
         "interlocuteur": "Conseillere Écologique"
       },
       "verso": {
-        "source": "UNKNOWN",
-        "texte": "Cette action n'aura aucun impact immédait. Un arbre peut absorber jusqu’à 150 kg de CO2 par an. D’autant qu’un arbre planté aujourd’hui ne pourra absorber efficacement du CO2 qu’après 23 ans",
+        "source": "greenpeace.fr",
+        "texte": "Cette action n'aura aucun impact immédiat. Un arbre peut absorber jusqu’à 150 kg de CO2 par an. D’autant qu’un arbre planté aujourd’hui ne pourra absorber efficacement du CO2 qu’après 23 ans.La priorité n'est pas de replanter mais bien de mettre fin à la déforestation ! la deforestation représente 12% des émissions mondiales de gaz à effet de serre",
         "images": []
       },
       "agree": {
@@ -106,7 +105,7 @@
         "interlocuteur": "Lobbyiste de l'Industrie Automobile"
       },
       "verso": {
-        "source": "UNKNOWN",
+        "source": "quechoisir.org",
         "texte": "Pour commencer, une voiture électrique n’est jamais « zéro carbone ». Sa production, et notamment celle de ses batteries, émet des gaz à effet de serre (à l’origine du réchauffement climatique). Avant même d’avoir roulé le moindre kilomètre, une voiture électrique a donc une « dette » carbone de 5 à 15 tonnes équivalent CO2, selon les modèles.",
         "images": []
       },
@@ -154,7 +153,7 @@
         "interlocuteur": "Directeur EDF"
       },
       "verso": {
-        "source": "UNKNOWN",
+        "source": "gerbeaud.com",
         "texte": "Leur installation dans des zones écologiquement sensibles peut perturber les habitats naturels.",
         "images": []
       },
@@ -178,7 +177,7 @@
         "interlocuteur": "Scientifique"
       },
       "verso": {
-        "source": "UNKNOWN",
+        "source": "telecom-paris-alumni.fr",
         "texte": "L’idée que nous pourrions éviter les effets catastrophiques du dérèglement grâce à des découvertes technologiques bute sur un simple problème de calendrier : à supposer que de telles découvertes soient faites (postulat déjà optimiste), les phases de planification, construction, tests, mises en place aux échelles suffisantes prendrait des décennies. Nous ne disposons pas de ce temps. Croire l’inverse revient à nier l’ampleur du problème.",
         "images": []
       },
@@ -202,7 +201,6 @@
         "interlocuteur": "Activiste Végétarienne"
       },
       "verso": {
-        "jeu": "pacman",
         "source": "tv5monde.com",
         "texte": "Il faut juste reduire sa consommation en viande car il faut 7 à 10 kilos de céréales pour produire un kilo de viande rouge",
         "images": []
@@ -227,7 +225,7 @@
         "interlocuteur": "Citoyen"
       },
       "verso": {
-        "source": "",
+        "source": "iadb.org",
         "texte": "L'énergie renouvelable sera bientôt moins chère que le gaz naturel. Il est économiquement sensé pour les gouvernements d'investir dans des solutions d'énergie propre",
         "images": []
       },
@@ -251,7 +249,7 @@
         "interlocuteur": "Opposant Politique"
       },
       "verso": {
-        "source": "",
+        "source": "icrc.org",
         "texte": "Le droit international humanitaire offre en réalité une protection à l'environnement contre les dommages à long terme et étendus causés par les conflits armés.",
         "images": []
       },
@@ -275,7 +273,6 @@
         "interlocuteur": "Proposition de loi"
       },
       "verso": {
-        "jeu": "InProgress",
         "source": "hellocorabon.com",
         "texte": "Le transport ne represente que ⅓ des émissions d'un citoyen français.",
         "images": []
