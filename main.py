@@ -23,7 +23,7 @@ def InProgress():
 def start():
     return render_template("start.html")
 
-@app.route("/")
+@app.route("/homepage")
 def homepage():
     return render_template("index.html")
 
