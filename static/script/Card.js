@@ -4,11 +4,6 @@ export default class Card {
         this.index = index;
         this.cardStack = cardStack;
     }
-    flipCard() {
-        console.log("test")
-        const card = document.querySelector('.card-data-container');
-        card.style.transform = 'rotateY(180deg)';
-    }
 
     createCard() {
         console.log(this.question)
@@ -17,7 +12,7 @@ export default class Card {
         card.style.zIndex = 1000 - this.index;
         card.innerHTML = `
         <div class="card-container">
-            <div class="card-data-container ">
+            <div class="card-data-container card-design">
                 <div class="side front">
                     <div>
                         <span class="card-data-question">${this.question.recto.question}</span>
@@ -32,8 +27,8 @@ export default class Card {
                         </div>
                     </div>
                         <div class="btn-container">
-                            <button class="btn flip-btn agree" onclick=${this.flipCard}>D'accord</button>
-                            <button class="btn flip-btn disagree" onclick=${this.flipCard}>Pas d'accord</button>
+                            <button class="btn flip-btn agree">D'accord</button>
+                            <button class="btn flip-btn disagree">Pas d'accord</button>
                         </div> 
                 </div>        
                 <div class="side back">
@@ -43,5 +38,11 @@ export default class Card {
         </div>`;
 
         this.cardStack.appendChild(card);
+        const flipButtons = card.querySelectorAll('.flip-btn');
+        flipButtons.forEach(btn => btn.addEventListener('click', () => this.flipCard(card)));
+    }
+    flipCard(cardElement) {
+        const card = cardElement.querySelector('.card-data-container');
+        card.style.transform = 'rotateY(180deg)';
     }
 }

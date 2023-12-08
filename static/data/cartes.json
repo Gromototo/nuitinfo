@@ -283,7 +283,7 @@
     {
       "theme":"Economie",
       "recto": {
-        "images": ["../static/pictures/industrial.jpg"],
+        "images": ["../static/pictures/industrial.png"],
         "description": "Nous demandons des aides de l'état pour subventionner notre entreprise de recyclage du verre à 100%.",
         "question": "Investir dans le recyclage infini du verre ?",
         "interlocuteur": "Industriel"
