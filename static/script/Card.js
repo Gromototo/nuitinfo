@@ -35,10 +35,20 @@ export default class Card {
                         </div> 
                 </div>        
                 <div class="side back">
-                    <button class="btn suprr-card">D'accord</button>
+                    <p>${this.question.verso.texte}</p>
+                    <p>${this.question.verso.source}</p>
+                    <button class="btn suprr-card">Suivant</button>
                 </div>
             </div>
         </div>`;
+
+        if(this.question.verso.jeu){
+            const verso1 =  card.querySelector('.back');
+            verso1.insertAdjacentHTML(
+                "beforeend",
+                `<button class="btn"><a href="${this.question.verso.jeu}">Un super mini jeu</a></button>`,
+            );
+        }
 
         this.cardStack.appendChild(card);
         const flipButtonsAgree = card.querySelectorAll('.agree');
