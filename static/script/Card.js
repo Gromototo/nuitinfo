@@ -46,7 +46,7 @@ export default class Card {
             const verso1 =  card.querySelector('.back');
             verso1.insertAdjacentHTML(
                 "beforeend",
-                `<button class="btn"><a href="${this.question.verso.jeu}">Un super mini jeu</a></button>`,
+                `<button class="btn"><a href="${this.question.verso.jeu}" target="new">Un super mini jeu</a></button>`,
             );
         }
 
