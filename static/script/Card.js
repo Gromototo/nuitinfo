@@ -51,7 +51,6 @@ export default class Card {
     }
 
     suprCard(cardElement) {
-        const card = cardElement.querySelector('.card-container');
-        card.remove();
+        cardElement.remove()
     }
 }
