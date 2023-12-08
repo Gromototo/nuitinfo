@@ -32,7 +32,7 @@ export default class Card {
                         </div> 
                 </div>        
                 <div class="side back">
-                    <p> Back Content<p>
+                    <button class="btn suprr-card">D'accord</button>
                 </div>
             </div>
         </div>`;
@@ -40,9 +40,18 @@ export default class Card {
         this.cardStack.appendChild(card);
         const flipButtons = card.querySelectorAll('.flip-btn');
         flipButtons.forEach(btn => btn.addEventListener('click', () => this.flipCard(card)));
+
+        const Suprr = card.querySelectorAll('.suprr-card');
+        Suprr.forEach(btn => btn.addEventListener('click', () => this.suprCard(card)));
     }
+
     flipCard(cardElement) {
         const card = cardElement.querySelector('.card-data-container');
         card.style.transform = 'rotateY(180deg)';
+    }
+
+    suprCard(cardElement) {
+        const card = cardElement.querySelector('.card-container');
+        card.remove();
     }
 }
