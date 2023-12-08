@@ -14,6 +14,10 @@ def pacman():
 def memory():
     return render_template("memory.html")
 
+@app.route("/InProgress")
+def InProgress():
+    return render_template("InProgress.html")
+
 
 @app.route("/")
 def homepage():
