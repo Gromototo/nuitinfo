@@ -130,7 +130,7 @@
       },
       "verso": {
         "source": "popsci.com",
-        "texte": "NULL",
+        "texte": "La fabrication, le transport, et l'élimination de ces produits, même s'ils sont écologiques, nécessite des ressources et produisent des émissions. Par exemple, les produits nécessitant des matériaux rares ou des processus de fabrication complexes peuvent avoir un impact écologique significatif malgré leurs attributs 'verts'.",
         "images": []
       },
       "agree": {
@@ -177,8 +177,8 @@
         "interlocuteur": "Scientifique"
       },
       "verso": {
-        "source": "UNKNOWN",
-        "texte": "NULL",
+        "source": "https://www.telecom-paris-alumni.fr/fr/revue/article/pourquoi-la-technologie-ne-nous-sauvera-pas-du-desastre-ecologique/3260",
+        "texte": "L’idée que nous pourrions éviter les effets catastrophiques du dérèglement grâce à des découvertes technologiques bute sur un simple problème de calendrier : à supposer que de telles découvertes soient faites (postulat déjà optimiste), les phases de planification, construction, tests, mises en place aux échelles suffisantes prendrait des décennies. Nous ne disposons pas de ce temps. Croire l’inverse revient à nier l’ampleur du problème.",
         "images": []
       },
       "agree": {
@@ -225,7 +225,7 @@
         "interlocuteur": "Citoyen"
       },
       "verso": {
-        "source": "NULL",
+        "source": "",
         "texte": "L'énergie renouvelable sera bientôt moins chère que le gaz naturel. Il est économiquement sensé pour les gouvernements d'investir dans des solutions d'énergie propre",
         "images": []
       },
@@ -297,7 +297,7 @@
         "interlocuteur": "Agriculteur"
       },
       "verso": {
-        "source": "slate.fr",
+        "source": "",
         "texte": "l'importance du manger local est parfois surestimée, car le transport ne représente en réalité qu'une petite partie de l'énergie consommée dans la production des aliments en effet : le transport de nourriture représente en général moins de 10% de l'empreinte carbone de la nourriture",
         "images": []
       },
