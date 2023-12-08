@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
 :root{
     --color-green:#0CCE6B;
     --color-white:#FFFFFF;
     --color-black:#363537;
     --color-grey:#D9D9D9;
 }
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--color-black);
     margin: 0;
@@ -43,7 +50,6 @@ main {
     background: #0CCE6B;
 }
 main section{
-    background-color: red;
     height: calc(100vh - 7vh);
     overflow: hidden;
 }
@@ -51,97 +57,7 @@ main section{
     flex: 35%;
     background-color: blue;
 }
-#section-card {
-    flex: 65%;
-    padding: 75px;
-}
-#card-stack{
-    position: relative;
-}
-.card {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(100% - 32px);
-    height: calc((100vh - 7vh) - 30vh);
-}
-.card-data-container{
-    display: flex;
-    flex-direction: column;
-}
-.card-data-question{
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-}
-.card-data-interlocutor{
-    display: flex;
-}
-.card-data-interlocutor-profil{
-    width: 30%;
-    font-size: 10px;
-}
-.card-data-interlocutor-description{
-    font-size: 15px;
-}
 
-.card-container {
-    perspective: 1000px;
-    width: 100%;
-    height: 500px;
-    margin: 50px auto;
-  }
-  
-  .card-design {
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
-  }
-  
-  .card-design .side{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding: 16px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .back{
-    transform: rotateY(180deg);
-    translate: -4vh;
-  }
-  
-  .btn-container {
-    text-align: center;
-  }
-  
-  .btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #2ecc71;
-    color: white;
-    border: none;
-  }
-  
-  /* .disagree{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 20px;
-  } */
 
 
 

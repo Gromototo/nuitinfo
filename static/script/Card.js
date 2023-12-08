@@ -15,7 +15,7 @@ export default class Card {
             <div class="card-data-container card-design">
                 <div class="side front">
                     <div>
-                        <span class="card-data-question">${this.question.recto.question}</span>
+                        <h2 class="card-data-question">${this.question.recto.question}</h2>
                     </div>
                     <div class="card-data-interlocutor">
                         <div class="card-data-interlocutor-profil">
@@ -48,6 +48,7 @@ export default class Card {
     flipCard(cardElement) {
         const card = cardElement.querySelector('.card-data-container');
         card.style.transform = 'rotateY(180deg)';
+        card.style.padding = '0';
     }
 
     suprCard(cardElement) {
