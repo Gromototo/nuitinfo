@@ -458,6 +458,31 @@
         "jauge2": 0,
         "jauge3": 0
       }
+    },
+    {
+      "theme":"",
+      "recto": {
+        "images": ["../static/pictures/person.png"],
+        "description": "",
+        "question": "Voulez vous Gagner ?",
+        "interlocuteur": "CodingZ"
+      },
+      "verso": {
+        "fin":"/",
+        "source": "",
+        "texte": "",
+        "images": []
+      },
+      "agree": {
+        "jauge1": 0,
+        "jauge2": 0,
+        "jauge3": 0
+      },
+      "disagree": {
+        "jauge1": -2000,
+        "jauge2": -20000,
+        "jauge3": -20000
+      }
     }
   ]
 }
