@@ -3,7 +3,7 @@
     {
       "theme":"Catastrophes Climatiques",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/pecheur.png"],
         "description": "Nous voulons étendre notre domaine de pêche.",
         "question": "Accorder une dérogation pour la pêche industrielle dans les aires marines protégées?",
         "interlocuteur": "Un lobbyiste de la pêche industrielle"
@@ -23,7 +23,7 @@
     {
       "theme":"Catastrophes Climatiques",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ceo.png"],
         "description": "Une chaîne de télévision répand l'information que les ouragans ne sont pas liés au changement climatique.",
         "question": "Poursuivre la chaîne de télévision en justice pour fausse information?",
         "interlocuteur": "Directeur de l'Arcom"
@@ -43,7 +43,7 @@
     {
       "theme":"Diplomatie",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/minister.png"],
         "description": "Le président d'un pays allié affirme sur ses réseaux sociaux que le niveau des mers n'augmente pas.",
         "question": "Réagir en menaçant de mettre fin aux partenariats?",
         "interlocuteur": "Conseiller du Pôle Diplomatique"
@@ -63,7 +63,7 @@
     {
       "theme":"Catastrophes Climatiques",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ecological-advisor.png"],
         "description": "Lancer une innitiative pour planter des milliers d'arbres pour la journée internationale des forêts ?",
         "question": "Financer et communiquer sur l'initiative ?",
         "interlocuteur": "Conseillere Écologique"
@@ -83,7 +83,7 @@
     {
       "theme":"Enjeux Sociaux",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ceo.png"],
         "description": "L'industrie automobile propose de nombreux nouveaux véhicules électriques.",
         "question": "Proposer des financements aux particuliers pour l'achat de voitures électriques?",
         "interlocuteur": "Lobbyiste de l'Industrie Automobile"
@@ -103,7 +103,7 @@
     {
       "theme":"Enjeux Sociaux",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ecological-advisor.png"],
         "description": "Malgré vos efforts pour encourager la consommation de produits 'verts', nous soulignons un risque de surutilisation, compromettant les objectifs environnementaux.",
         "question": "Communiquer sur le sujet lors de votre prochain entretien avec la presse ?",
         "interlocuteur": "Expert en Durabilité"
@@ -123,7 +123,7 @@
     {
       "theme":"Catastrophes Climatiques",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ceo.png"],
         "description": "Nous pouvons étendre le parc éolien actuel pour diversifier nos sources de production d'énergie.",
         "question": "Agrandir le parc éolien Français pour augmenter la production d'énergie 'verte'. ",
         "interlocuteur": "Directeur EDF"
@@ -143,7 +143,7 @@
     {
       "theme":"Economie",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/scientist.png"],
         "description": "Mon laboratoire de recherche va bientôt résoudre le problème du réchauffement climatique à l'aide de la technologie.",
         "question": "Lui faire confience et financer ses recherches ?",
         "interlocuteur": "Scientifique"
@@ -163,7 +163,7 @@
     {
       "theme":"Enjeux Sociaux",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ecolo-activist.png"],
         "description": "Il faut arrêtet de manger de la viande !",
         "question": "Rendre illégale la consommation de viande ?",
         "interlocuteur": "Activiste Végétarienne"
@@ -183,7 +183,7 @@
     {
       "theme":"Enjeux Sociaux",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/person.png"],
         "description": "Les mesures de lutte contre le réchauffement climatique sont trop couteuses !",
         "question": "Geler les investissement ?",
         "interlocuteur": "Citoyen"
@@ -203,7 +203,7 @@
     {
       "theme":"Diplomatie",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ecolo-activist.png"],
         "description": "Lors d'un débat, votre opposant affirme que La législation internationale ne protège pas l'environnement en temps de guerre !",
         "question": "Lui répondre que c'est tout à fait vrai et que vous souhaitez remédier à cela ?",
         "interlocuteur": "Opposant Politique"
@@ -223,7 +223,7 @@
     {
       "theme":"Enjeux Sociaux",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/minister.png"],
         "description": "Interdire les voitures individuelles car le transport représente plus de 50% des émissions d’un français moyen !",
         "question": "User de votre Véto ?",
         "interlocuteur": "Proposition de loi"
@@ -243,7 +243,7 @@
     {
       "theme":"Enjeux Sociaux",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/agricultor.png"],
         "description": "Plutôt que d'interdire la viande il faut obliger à consommer localement !",
         "question": "Rédiger un projet de loi.",
         "interlocuteur": "Agriculteur"
@@ -263,7 +263,7 @@
     {
       "theme":"Enjeux Sociaux",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/person.png"],
         "description": "Pour vous rendre à votre prochaine convention vous devez choisir entre le bateau et l'avion comme moyen de locomotion.",
         "question": "Prendre l'avion ?.",
         "interlocuteur": "Organisateur"
@@ -283,7 +283,7 @@
     {
       "theme":"Economie",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/industrial.jpg"],
         "description": "Nous demandons des aides de l'état pour subventionner notre entreprise de recyclage du verre à 100%.",
         "question": "Investir dans le recyclage infini du verre ?",
         "interlocuteur": "Industriel"
@@ -303,7 +303,7 @@
     {
       "theme":"Enjeux Sociaux",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ceo.png"],
         "description": "Il faut changer les habitudes des citoyens concernant l'utilisation de papier toilette.",
         "question": "Tiwtter sur les habitudes d'hygiene intime à adopter ?",
         "interlocuteur": "PDG d'une entreprise de toilettes japonaise"
@@ -323,7 +323,7 @@
     {
       "theme":"Economie",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/industrial.png"],
         "description": "J'aimerais mettre en place un système de consigne sur mes produits vendus en grande surface pour les recycler par la suite.",
         "question": "Répondre que le système de consigne n'est pas viable et Refuser ?",
         "interlocuteur": "Industriel dans le secteur Alimentiare"
@@ -343,7 +343,7 @@
     {
       "theme":"Economie",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/ceo.png"],
         "description": "Investir dans le bio carburant comme l'huile de palme ou les graisses animales qui vont permettre de péréniser l'aviation civile et de transport.",
         "question": "Le bio carburant n'est pas la solution, Refuser.",
         "interlocuteur": "Lobbyiste secteur de l'aviation"
@@ -363,29 +363,9 @@
     {
       "theme":"Economie",
       "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
+        "images": ["../static/pictures/person.png"],
         "description": "N'investissez pas dans les chauffe eau solaires, ça ne fonctionne pas dans le nord ni en hiver.",
         "question": "Le bio carburant n'est pas la solution, Refuser.",
-        "interlocuteur": "Quelqu'un"
-      },
-      "verso": {
-        "source": "https://librairie.ademe.fr/cadic/7736/guide-adopter-solaire-thermique.pdf",
-        "texte": "l y a suffisamment de soleil en France (même au nord) pour envisager l'installation d'un chauffe-eau solaire. En période estivale, la totalité de la demande en eau chauffée pourrait même être couverte, ce qui permettrait d’éteindre complètement la chaudière.",
-        "images": []
-      },
-      "consequences": {
-        "consequence1": 0,
-        "consequence2": 0,
-        "consequence3": 0,
-        "consequence4": 0
-      }
-    },
-    {
-      "theme":"Economie",
-      "recto": {
-        "images": ["../static/pictures/profil-test.jpg"],
-        "description": "过度捕捞影响了三分之一的鱼类种群，三分之一的鲨鱼和鳐鱼受到威胁。在欧洲，大型鱼类数量惊人地下降了 90%，这警告人们形势的紧迫性",
-        "question": "过度捕捞影响了三分之一的鱼类种群，三分之一的鲨鱼和鳐鱼受到威胁。在欧洲，大型鱼类数量惊人地下降了 90%，这警告人们形势的紧迫性",
         "interlocuteur": "Quelqu'un"
       },
       "verso": {
