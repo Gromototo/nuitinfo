@@ -33,6 +33,7 @@
         "interlocuteur": "Directeur de l'Arcom"
       },
       "verso": {
+        "jeu": "memory",
         "source": "UNKNOWN",
         "texte": "Les experts s’accordent sur le fait que le réchauffement des eaux influe directement sur la violence de ces phénomènes météorologiques, qui puisent leur énergie des océans",
         "images": []
@@ -201,6 +202,7 @@
         "interlocuteur": "Activiste Végétarienne"
       },
       "verso": {
+        "jeu": "pacman",
         "source": "tv5monde.com",
         "texte": "Il faut juste reduire sa consommation en viande car il faut 7 à 10 kilos de céréales pour produire un kilo de viande rouge",
         "images": []
@@ -273,6 +275,7 @@
         "interlocuteur": "Proposition de loi"
       },
       "verso": {
+        "jeu": "InProgress",
         "source": "hellocorabon.com",
         "texte": "Le transport ne represente que ⅓ des émissions d'un citoyen français.",
         "images": []
